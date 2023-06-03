@@ -1,0 +1,6 @@
+{
+  id: user.id,
+  type: 'user',
+  name: user.name,
+  present: user.visible_and_present?
+}

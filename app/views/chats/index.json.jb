@@ -1,0 +1,1 @@
+render partial: 'chat', collection: @chats, as: :chat

@@ -1,0 +1,5 @@
+{ 
+  users: (render partial: 'user', collection: @users, as: :user),
+  pages: @users.total_pages,
+  count: @users.total_count
+}
